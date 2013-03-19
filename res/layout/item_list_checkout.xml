@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/borders_checkout"
+    android:gravity="center|left"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/borders_checkout"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/faceImageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"            
+            android:src="@drawable/fb_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Marcelo K Sato"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gray_soft2" />
+
+        <TextView
+            android:id="@+id/txt_visitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Vistas: 04"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray_soft2" />
+
+        <TextView
+            android:id="@+id/txt_gastos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Total gasto: R$ 125,12"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray_soft2" />
+
+        <TextView
+            android:id="@+id/txt_mesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Mesa: 00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray_soft2" />
+
+        <TextView
+            android:id="@+id/positionTextView"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="@string/nda" />
+    </LinearLayout>
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_seta" />
+
+    </RelativeLayout>
+    -->
+
+</LinearLayout>
